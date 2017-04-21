@@ -1,0 +1,126 @@
+body{
+    font: 15px/1.4 Arial, Helevetical,sens-serif;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+/*Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffcf7c;
+}
+
+/*header */
+header{
+    background: #078aef;
+    color: #bec7ce;
+    padding-top: 10px;
+    min-height: 60px;
+}
+
+header a{
+    color: azure;
+    text-decoration: none;
+}
+header h3{
+    float: right;
+    margin-top: 5px;
+}
+header h3 a{
+    color: #ffcf7c;
+}
+header  img{
+    float: right;
+    margin: 5px;
+    width: 30px;
+}
+
+header h1 a{
+    color: #ffcf7c;
+}
+header h1{
+    font-size: 30px;
+} 
+
+/* navigation */
+nav{
+    background: #06469b;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav li{
+    float: left;
+    display: inline;
+    padding: 0 65px 0 65px;
+}
+nav li:hover{
+    background: #ffcf7c;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00d8ff;
+}
+nav a:hover{
+    color:#06469b; 
+}
+
+
+/*login*/
+#login{
+    margin: 0;
+    min-height: 670px;
+    background: url('../img/Corpus_Christi_College_New_Court,_Cambridge,_UK_-_Diliff.jpg') no-repeat center;
+    background-size: 1600px;
+    text-align: center;
+    color: #ffffff;
+    display: inherit;
+    overflow: hidden;
+}
+
+#login form{
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(53, 66, 74, 0.8);
+    margin-top: 200px;
+    width: 300px;
+}
+#login form img{
+    float: left;
+    width: 30px;
+}
+#login input[type="email"], input[type="password"]{
+    margin: 2px;
+    padding: 6px;
+    width: 200px;
+}
+
+
+/*footer*/
+footer{
+    background: #06469b;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #078aef;
+}
+
+footer img{
+    width: 30px;
+}

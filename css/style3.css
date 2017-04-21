@@ -1,0 +1,195 @@
+body{
+    font: 15px/1.4 Arial, Helevetical,sens-serif;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+/*Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffcf7c;
+}
+.high{
+    background: #dd5e0f;
+}
+
+/*header */
+header{
+    background: #078aef;
+    color: #bec7ce;
+    padding-top: 10px;
+    min-height: 60px;
+}
+
+header a{
+    color: azure;
+    text-decoration: none;
+}
+header h3{
+    float: right;
+    margin-top: 5px;
+}
+header h3 a{
+    color: #ffcf7c;
+}
+header  img{
+    float: right;
+    margin: 5px;
+    width: 30px;
+}
+
+header h1 a{
+    color: #ffcf7c;
+}
+header h1{
+    font-size: 30px;
+} 
+
+/* navigation */
+nav{
+    background: #06469b;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav li{
+    float: left;
+    display: inline;
+    padding: 0 65px 0 65px;
+}
+nav li:hover{
+    background: #ffcf7c;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00d8ff;
+}
+nav a:hover{
+    color:#06469b; 
+}
+
+
+/*admission*/
+
+#Admission_into{
+    min-height: 500px;
+    background: url('../img/admission.jpg') no-repeat center;
+    background-size:100%;
+    text-align: center;
+    color: #ffffff;
+    display: inherit;
+    overflow: hidden;
+}
+#heading {
+    text-align: center;
+    color: #ffcf7c;
+    background: #06469b;
+    padding: 5px;
+}
+#heading h1{
+    font-size: 40px
+}
+
+
+/*adinfo*/
+#Adinfo{
+    padding: 5px;
+    background: #0556c1;
+    color: #00d8ff;
+}
+#Adinfo form{
+    float: right;
+}
+#Adinfo h2{
+    text-align: center;
+    font-size: 30px;
+}
+#Adinfo input[type="email"], input[type="text"]{
+    margin: 3px;
+    padding: 6px;
+    height: 12px;
+    width: 250px;
+}
+
+
+/*Admission*/
+
+#Admission_10{
+    background: #ffcf7c;
+    padding: 10px;
+}
+
+#Admission_10 h1{
+    color: #06469b;
+}
+
+#Admission_10 .arrangment{
+    float: left;
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    background: #06469b;
+    color: #00d8ff;
+    margin: 5px;
+}
+#Admission_10 .arrangment h3{
+    color: #ffcf7c;
+}
+
+#Admission_10 li{
+    list-style: none;
+}
+#Admission_12 h1{
+    color: #06469b;
+}
+#Admission_12{
+    background: #00d8ff;
+    margin: 0;
+    overflow: hidden;
+}
+#Admission_12 .set{
+    float: left;
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    background: #06469b;
+    color: #00d8ff;
+    margin: 5px;
+}
+#Admission_12 li{
+    list-style: none;
+}
+
+#Admission_12 h3{
+    color: #ffcf7c;
+}
+
+
+
+/*footer*/
+footer{
+    background: #06469b;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #078aef;
+}
+
+footer img{
+    width: 30px;
+}

@@ -1,0 +1,210 @@
+body{
+    font: 15px/1.4 Arial, Helevetical,sens-serif;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+/*Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffcf7c;
+}
+
+.dark{
+    border-radius: 15px;
+    padding: 15px;
+    background: #35424a;
+    color: #ffcf7c;
+    margin-bottom: 10px;
+}
+.high{
+    background: #dd5e0f;
+}
+
+/*header */
+header{
+    background: #078aef;
+    color: #bec7ce;
+    padding-top: 10px;
+    min-height: 60px;
+}
+
+header a{
+    color: azure;
+    text-decoration: none;
+}
+header h3{
+    float: right;
+    margin-top: 5px;
+}
+header h3 a{
+    color: #ffcf7c;
+}
+header  img{
+    float: right;
+    margin: 5px;
+    width: 30px;
+}
+
+header h1 a{
+    color: #ffcf7c;
+}
+header h1{
+    font-size: 30px;
+} 
+
+/* navigation */
+nav{
+    background: #06469b;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav li{
+    float: left;
+    display: inline;
+    padding: 0 65px 0 65px;
+}
+nav li:hover{
+    background: #ffcf7c;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00d8ff;
+}
+nav a:hover{
+    color:#06469b; 
+}
+
+
+/*showcase*/
+
+#showcase{
+    min-height: 800px;
+    background: url('../img/Cover-Photo-2015%20(1).jpg') no-repeat center;
+    text-align: center;
+    color: #ffffff;
+    display: inherit;
+    overflow: hidden;
+}
+#showcase #showDetail {
+    background: rgba(53, 66, 74, 0.7);
+    margin-top: 300px;
+    margin-bottom: 10px;
+}
+#showcase h1{
+    font-size: 50px
+}
+/*inrto*/
+#intro{
+    background: #35424a;
+    overflow: hidden;
+}
+#intro h1{
+    margin-left: 20px;
+    color: #00d8ff;
+    font-size: 50px;
+}
+#intro p{
+    text-align: center;
+    color: #ffcf7c;
+}
+
+/*article*/
+#main{
+    background:url('../img/campusBackground.jpg');
+    overflow: hidden;
+}
+article#life p{
+    color: aliceblue;
+}
+
+article#life{
+    margin-top: 20px;
+    border-radius: 15px; 
+    float: left;
+    width: 50%;
+    background: #06469b;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+article#life .box img{
+    width: 35%;
+}
+article#life .box p{
+    text-align: center;
+    float: right;
+    width: 20;
+}
+article#life .box h1{
+    color: #ffcf7c;
+    font-size: 30px;
+}
+/*aside*/
+aside#side{
+    border-radius: 20px; 
+    padding: 30px;
+    background: #ffcf7c;
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+}
+aside#side img{
+    width: 100%; 
+}
+aside#side h2{
+    color: #06469b;
+}
+
+/*adinfo*/
+#Adinfo{
+    padding: 5px;
+    background: #0556c1;
+    color: #00d8ff;
+}
+#Adinfo form{
+    float: right;
+}
+#Adinfo h2{
+    text-align: center;
+    font-size: 30px;
+}
+#Adinfo input[type="email"], input[type="text"]{
+    margin: 3px;
+    padding: 6px;
+    height: 12px;
+    width: 250px;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    background: #06469b;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #078aef;
+}
+
+footer img{
+    width: 30px;
+}
